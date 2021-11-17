@@ -1,5 +1,7 @@
 module PracticePackage
 
-# Write your package code here.
+include("add.jl")
+
+export add
 
 end
