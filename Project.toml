@@ -3,6 +3,9 @@ uuid = "beefb900-0ec8-49f6-8963-2dd060906b09"
 authors = ["Dale-Black <djblack@uci.edu> and contributors"]
 version = "0.1.0"
 
+[deps]
+TestSetExtensions = "98d24dd4-01ad-11ea-1b02-c9a08f80db04"
+
 [compat]
 julia = "1"
 

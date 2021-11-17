@@ -1,7 +1,13 @@
-@testset "add.jl" begin
-    @test add(4, 4) == 8
+@testset ExtendedTestSet "add.jl" begin
+    @testset "add.jl" begin
+        @test add(4, 4) == 8 
+    end
 
-    @test add(1, 2) == 3
+    @testset "add.jl" begin
+        @test add(1, 2) == 3
+    end
 
-    @test add(-1, -1) == -2
+    @testset "add.jl" begin
+        @test add(-1, -1) == -2
+    end
 end
